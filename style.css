@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  padding: 50px;
+}
+h1 {
+  font-size: 34px;
+  font-weight: 200;
+}
+h2 {
+  font-size: 33.6px;
+  margin: 9px 0 28px;
+}
+
+h3 {
+  margin-bottom: 10px;
+  font-size: 29px;
+}
+
+.top-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.top-section p {
+  width: 450px;
+  color: hsl(234, 12%, 34%);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  margin-top: 50px;
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 28px;
+  color: hsl(234, 12%, 34%);
+}
+
+.Supervisor-div {
+  width:  320px;
+  background-color: hsl(0, 0%, 98%);
+  padding: 20px;
+  margin-bottom: 40px;
+  margin-right: 25px;
+  border-top: 8px solid hsl(180, 62%, 55%);
+  border-radius: 10px;
+  box-shadow: 10px 9px 7px hsl(229, 6%, 66%);
+}
+
+.column-side {
+  display: flex;
+  flex-direction: column;
+}
+
+.team-builder-div {
+  width:  320px;
+  background-color: hsl(0, 0%, 98%);
+  padding: 20px;
+  margin-bottom: 40px;
+  border-top: 8px solid hsl(0, 78%, 62%);
+  border-radius: 10px;
+  box-shadow: 10px 9px 7px hsl(229, 6%, 66%);
+}
+
+.Karma-div {
+  width:  320px;
+  background-color: hsl(0, 0%, 98%);
+  padding: 20px;
+  margin-bottom: 40px;
+  border-top: 8px solid hsl(34, 97%, 64%);
+  border-radius: 10px;
+  box-shadow: 10px 9px 7px hsl(229, 6%, 66%);
+}
+
+.Calculator-div {
+  width:  320px;
+  background-color: hsl(0, 0%, 98%);
+  padding: 20px;
+  margin-bottom: 40px;
+  margin-left: 25px;
+  border-top: 8px solid hsl(212, 86%, 64%);
+  border-radius: 10px;
+  box-shadow: 10px 9px 7px hsl(229, 6%, 66%);
+}
+
+img {
+  margin-top: 40px;
+  float: right;
+}
+
+
+
+@media (max-width: 600px){
+  h1 {
+    font-size: 27px;
+  }
+  h2 {
+    font-size: 26.6px;
+    margin: 9px 0 28px;
+  }
+  h3 {
+    font-size: 23px;
+  }
+  body {
+    padding: 25px;
+  }
+  .container {
+    flex-direction: column;
+    font-size: 16.5px;
+  } 
+  .top-section p {
+    font-size: 18px;
+    width: 320px;
+    line-height: 28px;
+  }
+  .Supervisor-div {
+    margin-right: unset;
+    margin-top: 40px;
+  }
+  .Calculator-div {
+    margin-left: unset;
+  }
+}
